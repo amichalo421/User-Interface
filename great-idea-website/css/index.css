@@ -120,10 +120,52 @@ h1, h2, h3, h4, h5 {
 		border: 3px solid red;
 	}
 
+		.features {
+			border: 3px solid blue;
+			margin: 0 10px;
+			display: inline-block;
+			width: calc(50% - 40px);
+			vertical-align: top;
+		}
+		
+		.about {
+			border: 3px solid blue;
+			margin: 0 10px;
+			display: inline-block;
+			width: calc(50% - 40px);
+			vertical-align: top;
+		}
+
 	/* Bottom Body */
 	.bottombodycont {
 		border: 3px solid red;
 	}
+
+		.services {
+			border: 3px solid blue;
+			margin: 0 10px;
+			display: inline-block;
+			width: calc(33% - 40px);
+			vertical-align: top;
+		}
+
+		.product {
+			border: 3px solid blue;
+			margin: 0 10px;
+			display: inline-block;
+			width: calc(33% - 40px);
+			vertical-align: top;
+		}
+
+		.vision {
+			border: 3px solid blue;
+			margin: 0 10px;
+			display: inline-block;
+			width: calc(33% - 40px);
+			vertical-align: top;
+		}
+
+
 
 /* FOOTER */
 
@@ -137,4 +179,7 @@ h1, h2, h3, h4, h5 {
 
 #copyright {
 	border: 3px solid red;
+	width: 100%;
+	padding: 0px 500px 0px 500px;
 }
+
