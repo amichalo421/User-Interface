@@ -50,7 +50,6 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
 	box-sizing: border-box;
-	border: 20px solid royalblue
 }
 
 html, body {
@@ -69,18 +68,27 @@ h1, h2, h3, h4, h5 {
 /* HEADER */
 
 	/* Navigation Bar */
-	nav a {
-		border: 20px solid royalblue
-		display: inline-block;
+	.navbar {
+		border: 3px solid red;
 	}
-
+	nav a {
+		border: 20px solid royalblue;
+		display: inline-block;
+		border: 3px solid royalblue;
+	}
 	.logo {
 		display: inline-block;
+		border: 3px solid royalblue;
 	}
 
 	/* Left Header */
+	.topsection {
+		border: 3px solid red;
+	}
+
 	h1 p {
 		size: 40px;
+		border: 3px solid royalblue;
 	}
 
 	#getStartedButton {
@@ -91,6 +99,7 @@ h1, h2, h3, h4, h5 {
 		background-color: white;
 		border: 1px solid black;
 		color: black;
+		border: 3px solid royalblue;
 	}
 
 	/* Right Header */
@@ -98,9 +107,34 @@ h1, h2, h3, h4, h5 {
 
 /* BODY */
 
-h2 {
-	margin: 0 10px;
-	display: inline-block;
-	width: calc(50% - 40px);
-	vertical-align: top;
-  }
+	/* h2 {
+		margin: 0 10px;
+		display: inline-block;
+		width: calc(50% - 40px);
+		vertical-align: top;
+	} */
+
+	/* Top Body */
+
+	.topbodycont {
+		border: 3px solid red;
+	}
+
+	/* Bottom Body */
+	.bottombodycont {
+		border: 3px solid red;
+	}
+
+/* FOOTER */
+
+.contact {
+	border: 3px solid red;
+}
+
+.contactcont {
+	border: 3px solid red;
+}
+
+#copyright {
+	border: 3px solid red;
+}
