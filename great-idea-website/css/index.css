@@ -49,7 +49,8 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	border: 20px solid royalblue
 }
 
 html, body {
@@ -64,3 +65,42 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* HEADER */
+
+	/* Navigation Bar */
+	nav a {
+		border: 20px solid royalblue
+		display: inline-block;
+	}
+
+	.logo {
+		display: inline-block;
+	}
+
+	/* Left Header */
+	h1 p {
+		size: 40px;
+	}
+
+	#getStartedButton {
+		display: inline-block;
+		text-decoration: none;
+		padding: 8px 40px 8px 40px;
+		margin-bottom: 30px;
+		background-color: white;
+		border: 1px solid black;
+		color: black;
+	}
+
+	/* Right Header */
+	image....
+
+/* BODY */
+
+h2 {
+	margin: 0 10px;
+	display: inline-block;
+	width: calc(50% - 40px);
+	vertical-align: top;
+  }
