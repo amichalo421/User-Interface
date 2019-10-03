@@ -69,26 +69,42 @@ h1, h2, h3, h4, h5 {
 
 	/* Navigation Bar */
 	.navbar {
-		border: 3px solid red;
-	}
-	nav a {
-		border: 20px solid royalblue;
+		/* border: 3px solid red; */
 		display: inline-block;
-		border: 3px solid royalblue;
+		padding: 10px;
 	}
+	.navhead {
+		/* border: 3px solid purple; */
+		display: inline-block;
+		/* width: 50%; */
+	}
+
+	nav a {
+		padding: 20px;
+		margin: 10px;
+		/* border: 2px solid goldenrod; */
+		display: inline-block;
+		color: gray;
+		text-decoration: none;
+	}
+
+
 	.logo {
 		display: inline-block;
-		border: 3px solid royalblue;
+		/* border: 3px solid royalblue; */
+		padding: 40px 0px 0px 0px;
 	}
 
 	/* Left Header */
 	.topsection {
-		border: 3px solid red;
+		/* border: 3px solid red; */
+		border-bottom: 1px solid black;
+		padding-bottom: 20px;
 	}
 
-	h1 p {
+	p {
 		size: 40px;
-		border: 3px solid royalblue;
+		/* border: 3px solid royalblue; */
 	}
 
 	#getStartedButton {
@@ -96,14 +112,53 @@ h1, h2, h3, h4, h5 {
 		text-decoration: none;
 		padding: 8px 40px 8px 40px;
 		margin-bottom: 30px;
+		margin-left: 120px;
 		background-color: white;
 		border: 1px solid black;
 		color: black;
-		border: 3px solid royalblue;
+		/* border: 3px solid royalblue; */
 	}
 
+	/* Left Header */
+		.topleftsection {
+			/* border: 3px solid green; */
+			display: inline-block;
+			width: calc(50% - 40px);
+		}
+
+		#iod {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+		}
+
+			/* ?????GET ALL CHILD ELEMENTS...??? ///this is actually font size// */
+			#iod>* {
+				font-size: 70px;
+				display: flex;
+				align-content: center;
+				padding: 0px 0px 0px 70px;
+			}
+
+			#extra {
+				padding: 0px 0px 0px 160px;
+			}
+
+			#extra2 {
+				padding: 0px 0px 0px 100px;
+			}
+
+			#codeball {
+				margin-top: 20px;
+			}
+
 	/* Right Header */
-	image....
+		.toprightsection {
+			/* border: 3px solid green; */
+			display: inline-block;
+			width: calc(50% - 40px);
+		}
 
 /* BODY */
 
@@ -117,11 +172,11 @@ h1, h2, h3, h4, h5 {
 	/* Top Body */
 
 	.topbodycont {
-		border: 3px solid red;
+		/* border: 3px solid red; */
 	}
 
 		.features {
-			border: 3px solid blue;
+			/* border: 3px solid blue; */
 			margin: 0 10px;
 			display: inline-block;
 			width: calc(50% - 40px);
@@ -129,20 +184,30 @@ h1, h2, h3, h4, h5 {
 		}
 		
 		.about {
-			border: 3px solid blue;
+			/* border: 3px solid blue; */
 			margin: 0 10px;
 			display: inline-block;
 			width: calc(50% - 40px);
 			vertical-align: top;
 		}
 
+
+	/* Middle Body */
+
+		.middle-img {
+			width: 100%;
+
+		}
+
+
 	/* Bottom Body */
 	.bottombodycont {
-		border: 3px solid red;
+		/* border: 3px solid red; */
+		border-bottom: 2px solid black;
 	}
 
 		.services {
-			border: 3px solid blue;
+			/* border: 3px solid blue; */
 			margin: 0 10px;
 			display: inline-block;
 			width: calc(33% - 40px);
@@ -150,7 +215,7 @@ h1, h2, h3, h4, h5 {
 		}
 
 		.product {
-			border: 3px solid blue;
+			/* border: 3px solid blue; */
 			margin: 0 10px;
 			display: inline-block;
 			width: calc(33% - 40px);
@@ -158,7 +223,7 @@ h1, h2, h3, h4, h5 {
 		}
 
 		.vision {
-			border: 3px solid blue;
+			/* border: 3px solid blue; */
 			margin: 0 10px;
 			display: inline-block;
 			width: calc(33% - 40px);
@@ -170,16 +235,16 @@ h1, h2, h3, h4, h5 {
 /* FOOTER */
 
 .contact {
-	border: 3px solid red;
+	/* border: 3px solid red; */
 }
 
 .contactcont {
-	border: 3px solid red;
+	/* border: 3px solid red; */
 }
 
 #copyright {
-	border: 3px solid red;
+	/* border: 3px solid red; */
 	width: 100%;
-	padding: 0px 500px 0px 500px;
+	padding: 0px 400px 0px 400px;
 }
 
